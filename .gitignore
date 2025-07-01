@@ -1,0 +1,31 @@
+# Ignore virtual environment and Python cache
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS specific
+.DS_Store
+
+# Ignore documentation and previews
+*.docx
+previews/
+Pictures/
+
+# Ignore test-related files and folders
+test_images/
+test_image_batch.py
+test_results.csv
+
+# Ignore raw/experimental/temporary scripts
+insert_full_songs.py
+mongo_insertsongs_db.py
+create_music_db.py
+Final.py
+main_script.py
+
+# Ignore database backups or logs if any
+*.sqlite
+*.log
+.git_backup/
